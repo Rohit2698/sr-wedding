@@ -11,13 +11,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Two Hearts. One Celebration. Join Sumiran & Rohit for their wedding in Sarita Sadan, B-41, Gandhi Colony, Pawanpuri, Bikaner, Rajasthan on 11 December 2026.",
+          "Two Hearts. One Celebration. Join Sumiran & Rohit for their wedding in Raj Mandir, 17 Industrial Area, Rani Bazar, Bikaner, Rajasthan on 11 December 2026.",
       },
       { property: "og:title", content: "Sumiran & Rohit — Wedding Invitation" },
       {
         property: "og:description",
         content:
-          "Come celebrate our beautiful beginning — 11 December 2026, Sarita Sadan, B-41, Gandhi Colony, Pawanpuri, Bikaner, Rajasthan.",
+          "Come celebrate our beautiful beginning — 11 December 2026, Raj Mandir, 17 Industrial Area, Rani Bazar, Bikaner, Rajasthan.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

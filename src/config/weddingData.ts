@@ -8,7 +8,8 @@ import reception from "@/assets/reception.jpg";
 import bikaner from "@/assets/bikaner.jpg";
 import details from "@/assets/details.jpg";
 import jaggo from "@/assets/jaggo.png";
-export type EventTheme = "haldi" | "mehendi" | "sangeet" | "wedding" | "reception";
+import engagement from "@/assets/engagement.png";
+export type EventTheme = "haldi" | "mehendi" | "sangeet" | "jaggo" | "engagement" | "wedding" | "reception";
 
 export interface WeddingEvent {
   id: string;
@@ -42,7 +43,7 @@ export const weddingData = {
   weddingDateISO: "2026-12-11T00:00:00+05:30",
   weddingDateLabel: "11 December 2026",
   timezone: "Asia/Kolkata",
-  city: "Sarita Sadan, B-41, Gandhi Colony, Pawanpuri, Bikaner",
+  city: "Raj Mandir, 17 Industrial Area, Rani Bazar, Bikaner",
   state: "Rajasthan",
   country: "India",
   tagline: "Two Hearts. One Celebration. A Lifetime of Togetherness.",
@@ -114,7 +115,6 @@ export const weddingData = {
       dressCode: "Yellow / Traditional Indian",
       image: haldi,
     },
-
     {
       id: "sangeet",
       number: "03",
@@ -135,7 +135,7 @@ export const weddingData = {
       id: "jaggo",
       number: "04",
       name: "Jaggo",
-      theme: "sangeet",
+      theme: "jaggo",
       tagline: "Jaggo, Music & Celebration!",
       description:
         "Get ready for a night filled with music, dance, laughter, and unforgettable performances! Bring your dancing shoes and celebrate with us.",
@@ -148,8 +148,24 @@ export const weddingData = {
       image: jaggo,
     },
     {
+      id: "engagement",
+      number: "05",
+      name: "Engagement Ceremony",
+      theme: "engagement",
+      tagline: "Engagement Ceremony, Music & Celebration!",
+      description:
+        "Let's celebrate the engagement of our beautiful couple! We would love to have you with us!",
+      date: "2026-12-10",
+      startTime: "19:30",
+      endTime: "",
+      venue: "Raj Mandir, 17 Industrial Area, Rani Bazar, Bikaner",
+      address: "Raj Mandir, 17 Industrial Area, Rani Bazar, Bikaner",
+      dressCode: "Traditional Indian / Ethnic",
+      image: engagement,
+    },
+    {
       id: "wedding",
-      number: "04",
+      number: "06",
       name: "The Wedding Ceremony",
       theme: "wedding",
       tagline: "Saat Phere, Forever Together!",
@@ -158,8 +174,8 @@ export const weddingData = {
       date: "2026-12-11",
       startTime: "10:00",
       endTime: "",
-      venue: "Sarita Sadan, B-41, Gandhi Colony, Pawanpuri, Bikaner",
-      address: "Sarita Sadan, B-41, Gandhi Colony, Pawanpuri, Bikaner",
+      venue: "Raj Mandir, 17 Industrial Area, Rani Bazar, Bikaner",
+      address: "Raj Mandir, 17 Industrial Area, Rani Bazar, Bikaner",
       dressCode: "Traditional Indian / Ethnic",
       image: wedding,
     },

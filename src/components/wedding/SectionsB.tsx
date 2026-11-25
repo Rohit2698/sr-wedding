@@ -13,6 +13,8 @@ const themes: Record<EventTheme, { section: string; title: string; accent: strin
   haldi: { section: "bg-haldi/35", title: "text-sindoor", accent: "text-marigold", chip: "bg-marigold text-primary-foreground", mandala: "text-marigold/30" },
   mehendi: { section: "bg-emerald text-ivory", title: "text-haldi", accent: "text-blush", chip: "bg-rani text-primary-foreground", mandala: "text-gold/30" },
   sangeet: { section: "bg-magenta text-ivory", title: "text-haldi", accent: "text-blush", chip: "bg-gold text-burgundy", mandala: "text-rani/50" },
+  jaggo: { section: "bg-peacock text-ivory", title: "text-haldi", accent: "text-marigold", chip: "bg-marigold text-primary-foreground", mandala: "text-haldi/25" },
+  engagement: { section: "bg-blush/60", title: "text-magenta", accent: "text-rani", chip: "bg-rani text-primary-foreground", mandala: "text-rani/20" },
   wedding: { section: "bg-sindoor text-ivory", title: "text-haldi", accent: "text-blush", chip: "bg-gold text-burgundy", mandala: "text-gold/30" },
   reception: { section: "bg-champagne", title: "text-burgundy", accent: "text-rani", chip: "bg-burgundy text-ivory", mandala: "text-gold/40" },
 };
@@ -49,7 +51,7 @@ function EventActions({ e }: { e: WeddingEvent }) {
 
 function EventBlock({ e, index }: { e: WeddingEvent; index: number }) {
   const t = themes[e.theme];
-  const light = ["mehendi", "sangeet", "wedding"].includes(e.theme);
+  const light = ["mehendi", "sangeet", "jaggo", "wedding"].includes(e.theme);
   const flip = index % 2 === 1;
 
   if (e.theme === "wedding") {
