@@ -9,7 +9,8 @@ import bikaner from "@/assets/bikaner.jpg";
 import details from "@/assets/details.jpg";
 import jaggo from "@/assets/jaggo.png";
 import engagement from "@/assets/engagement.png";
-export type EventTheme = "haldi" | "mehendi" | "sangeet" | "jaggo" | "engagement" | "wedding" | "reception";
+export type EventTheme =
+  "haldi" | "mehendi" | "sangeet" | "jaggo" | "engagement" | "wedding" | "reception";
 
 export interface WeddingEvent {
   id: string;
@@ -181,7 +182,7 @@ export const weddingData = {
     },
     {
       id: "reception",
-      number: "05",
+      number: "07",
       name: "Wedding Reception",
       theme: "reception",
       tagline: "An Evening of Love & Celebration!",
