@@ -7,7 +7,7 @@ import wedding from "@/assets/wedding.jpg";
 import reception from "@/assets/reception.jpg";
 import bikaner from "@/assets/bikaner.jpg";
 import details from "@/assets/details.jpg";
-
+import jaggo from "@/assets/jaggo.png";
 export type EventTheme = "haldi" | "mehendi" | "sangeet" | "wedding" | "reception";
 
 export interface WeddingEvent {
@@ -145,7 +145,7 @@ export const weddingData = {
       venue: "#132 Jagat Niwas, Aarya gaming zone, Dattowal, Nalagarh",
       address: "#132 Jagat Niwas, Aarya gaming zone, Dattowal, Nalagarh",
       dressCode: "Ethnic",
-      image: wedding,
+      image: jaggo,
     },
     {
       id: "wedding",
