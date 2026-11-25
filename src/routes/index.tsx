@@ -11,9 +11,9 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Two Hearts. One Celebration. Join Sumiran Narayan & Rohit Thakur for their wedding in Sarita Sadan, B-41, Gandhi Colony, Pawanpuri, Bikaner, Rajasthan on 11 December 2026.",
+          "Two Hearts. One Celebration. Join Sumiran & Rohit for their wedding in Sarita Sadan, B-41, Gandhi Colony, Pawanpuri, Bikaner, Rajasthan on 11 December 2026.",
       },
-      { property: "og:title", content: "Sumiran & Rohit — The Grand Indian Wedding" },
+      { property: "og:title", content: "Sumiran & Rohit — Wedding Invitation" },
       {
         property: "og:description",
         content:

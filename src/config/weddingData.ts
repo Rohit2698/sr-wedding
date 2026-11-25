@@ -36,8 +36,8 @@ export interface GalleryImage {
 }
 
 export const weddingData = {
-  bride: { firstName: "Sumiran", fullName: "Sumiran Narayan", photo: "" },
-  groom: { firstName: "Rohit", fullName: "Rohit Thakur", photo: "" },
+  bride: { firstName: "Sumiran", fullName: "Sumiran", photo: "" },
+  groom: { firstName: "Rohit", fullName: "Rohit", photo: "" },
   monogram: "S & R",
   weddingDateISO: "2026-12-11T00:00:00+05:30",
   weddingDateLabel: "11 December 2026",

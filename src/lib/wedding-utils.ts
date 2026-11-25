@@ -46,7 +46,7 @@ export function formatTime(t: string): string {
 }
 
 export function whatsappShareUrl(url: string): string {
-  const text = `You're invited to celebrate the wedding of Sumiran Narayan & Rohit Thakur on 11 December 2026 in Sarita Sadan, B-41, Gandhi Colony, Pawanpuri,Bikaner, Rajasthan! Join us for a beautiful celebration of love. View the invitation: ${url}`;
+  const text = `You're invited to celebrate the wedding of Sumiran & Rohit on 11 December 2026 in Sarita Sadan, B-41, Gandhi Colony, Pawanpuri,Bikaner, Rajasthan! Join us for a beautiful celebration of love. View the invitation: ${url}`;
   return `https://wa.me/?text=${encodeURIComponent(text)}`;
 }
 
